@@ -8,6 +8,14 @@ body {
   background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
   background-position: center center;
 }
+
+img {
+  max-width: 100%; /* Limita a largura ao máximo do container */
+  max-height: 200px; /* Define a altura máxima */
+  object-fit: contain; /* Garante que a imagem não seja distorcida */
+  user-select: none;
+}
+
 .paper {
   background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
   background-size: 500px;
@@ -65,3 +73,4 @@ p {
   user-select: none;
   
 }
+
